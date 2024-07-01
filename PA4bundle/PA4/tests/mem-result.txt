@@ -1,0 +1,11 @@
+Occupied memory after OS load:
+mem[0|0x0000]= 1111 1111 1111 1111 (dec: 65535)
+mem[4096|0x1000]= 1110 1111 1111 1110 (dec: 61438)
+Occupied memory after allocation:
+mem[0|0x0000]= 1111 1111 1111 1111 (dec: 65535)
+mem[4096|0x1000]= 1101 1111 1111 1100 (dec: 57340)
+mem[61438|0xeffe]= 0001 0000 0000 0000 (dec: 4096)
+mem[61439|0xefff]= 0000 0000 0010 1010 (dec: 42)
+Occupied memory after freeing:
+mem[0|0x0000]= 1111 1111 1111 1111 (dec: 65535)
+mem[4096|0x1000]= 1110 1111 1111 1110 (dec: 61438)
